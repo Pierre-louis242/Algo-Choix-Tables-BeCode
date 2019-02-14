@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: auto auto;
+    border: 5px solid blue;
+    flex-direction: column;
+}
+
+#buttonRdm {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border: 2px solid yellow;
+}
+
+.firstTables{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.secondTables{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.tableUne{
+    width: 50%;
+    border: 2px solid black;
+}
+
+.tableDeux{
+    width: 50%;
+    border: 2px solid black;
+}
+
+.tableTrois{
+    width: 50%;
+    border: 2px solid red;
+}
+
+.tableQuatre{
+    width: 50%;
+    border: 2px solid red;
+}
