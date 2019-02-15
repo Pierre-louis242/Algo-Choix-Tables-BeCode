@@ -53,7 +53,7 @@ h2{
     width: 90px;
     background-color: white;
     border-radius: 10%;
-    border: 2px solid yellow;
+    border: 2px solid #00ff00;
     margin: 10px 10px;
     padding: 0.2%;
 }
@@ -86,7 +86,7 @@ img{
 
 .tableUne{
     width: 50%;
-    border: 2px solid #58379f;
+    border: 2px solid #00ff00;
     margin: 10px 10px;
     padding: 1%;
     border-radius: 5px;
@@ -98,7 +98,7 @@ img{
 
 .tableDeux{
     width: 50%;
-    border: 2px solid #f25a31;
+    border: 2px solid #00ff00;
     margin: 10px 10px;
     padding: 1%;
     border-radius: 5px;
@@ -111,7 +111,7 @@ img{
 
 .tableTrois{
     width: 50%;
-    border: 2px solid #0f7ec3;
+    border: 2px solid #00ff00;
     margin: 10px 10px;
     padding: 1%;
     border-radius: 5px;
@@ -123,7 +123,7 @@ img{
 
 .tableQuatre{
     width: 50%;
-    border: 2px solid #f68333;
+    border: 2px solid #00ff00;
     margin: 10px 10px;
     padding: 1%;
     border-radius: 5px;
