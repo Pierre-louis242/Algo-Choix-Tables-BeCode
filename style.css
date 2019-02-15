@@ -38,13 +38,22 @@ h2{
     font-size: 1.7rem;
 }
 
+#message{
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  height: auto;
+  width:350px;
+  font-size: 2rem;
+}
+
 #buttonRdm {
     height: 100px;
     width: 90px;
     background-color: white;
     border-radius: 10%;
     border: 2px solid yellow;
-    margin: 10px 10px; 
+    margin: 10px 10px;
     padding: 0.2%;
 }
 
@@ -83,7 +92,7 @@ img{
 }
 
 #titreHtml{
-    color: #f25a31    
+    color: #f25a31
 }
 
 .tableDeux{
@@ -96,7 +105,7 @@ img{
 
 #titreCss{
     color: #0f7ec3;
-    
+
 }
 
 .tableTrois{

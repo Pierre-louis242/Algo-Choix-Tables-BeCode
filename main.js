@@ -36,7 +36,11 @@ window.onload = () => {
         e.preventDefault();
         if (noMore==true){
             randomize();
-        };
+            message("Votre table est bien reservee, demain 9h. Merci a vous.", "#message");
+        }
+        else{
+          message("Desole, nous sommes complet.", "#message");
+        }
     });
 
     function putNames(){
@@ -51,3 +55,12 @@ window.onload = () => {
     };
 
 };
+
+function message (text, selector) {
+    document.querySelector(selector).innerText = text;
+    document.querySelector(selector).style.display = "block";
+    setTimeout ( ()=> {
+        document.querySelector(selector).innerText = "";
+        document.querySelector(selector).style.display = "none";
+    }, 3000)
+}
