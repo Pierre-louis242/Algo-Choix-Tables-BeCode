@@ -13,10 +13,6 @@ window.onload = () => {
     };
 
     let table = [[], [], [], []];
-    let php = table[0];
-    let html = table[1];
-    let css = table[2];
-    let js = table[3];
     let buttonRdm = document.getElementById("buttonRdm");
     let noMore=true;
 
@@ -28,6 +24,7 @@ window.onload = () => {
                 learners.splice(random,1);
             };
         };
+        table[3] = learners;
         putNames();
         noMore=false;
     }
@@ -44,23 +41,34 @@ window.onload = () => {
     });
 
     function putNames(){
-        for (m=0; m<3; m++){
-            for (y=0; y<5; y++){
-                tableauPlaces.places[m].innerText += "> " + table[m][y] + "\n";
-            };
-        };
-        for (y=0; y<4; y++){
-            tableauPlaces.places[3].innerText += "> " + learners[y] + "\n";
+        for (m=0; m<4; m++){
+            let p = 0
+            if(m<3){
+                nomsDansTable(m, p, 5);
+            }else if (m==3){
+                console.log(table[m]);
+                nomsDansTable(m, p, 4);
+            }    
         };
     };
 
-};
+    function nomsDansTable(m, p, leng){
+        setTimeout(()=>{
+            tableauPlaces.places[m].innerText += "> " + table[m][p] + "\n";
+            p++
+            if(p<leng){
+                nomsDansTable(m, p, leng);
+            }
+        },1000)
+    }
+    
+    function message (text, selector) {
+        document.querySelector(selector).innerText = text;
+        document.querySelector(selector).style.display = "block";
+        setTimeout ( ()=> {
+            document.querySelector(selector).innerText = "";
+            document.querySelector(selector).style.display = "none";
+        }, 4000)
+    }
 
-function message (text, selector) {
-    document.querySelector(selector).innerText = text;
-    document.querySelector(selector).style.display = "block";
-    setTimeout ( ()=> {
-        document.querySelector(selector).innerText = "";
-        document.querySelector(selector).style.display = "none";
-    }, 4000)
-}
+};
