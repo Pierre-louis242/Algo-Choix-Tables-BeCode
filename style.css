@@ -1,8 +1,19 @@
+@font-face{
+    font-family: 'Adobe Dia';
+    src: url('AdobeDia.ttf') format('truetype');
+}
+
 *{
     transition: 0.3s;
     font-family: 'Courier New', Courier, monospace;
-    background-color: black;
     color: aliceblue;
+    color: #00ff00;
+    font-family: 'Adobe Dia';
+    font-size: 1.25rem;
+}
+
+html{
+    background-color: black;
 }
 
 main{
@@ -13,20 +24,33 @@ main{
     height: auto;
     width: auto;
     margin: auto auto;
-    border: 5px solid blue;
     flex-direction: column;
+    background-color: black;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1% 0%
 }
 
 h2{
     margin: 2% 0%;
+    font-size: 1.7rem;
 }
 
 #buttonRdm {
-    height: 50px;
-    width: 50px;
-    background-color: blue;
+    height: 100px;
+    width: 90px;
+    background-color: white;
+    border-radius: 10%;
     border: 2px solid yellow;
     margin: 10px 10px; 
+    padding: 0.2%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
 }
 
 .firstTables{
@@ -45,30 +69,52 @@ h2{
     width: 100%;
 }
 
+
+#titrePhp{
+    color: #58379f;
+}
+
 .tableUne{
     width: 50%;
-    border: 2px solid black;
+    border: 2px solid #58379f;
     margin: 10px 10px;
     padding: 1%;
+    border-radius: 5px;
+}
+
+#titreHtml{
+    color: #f25a31    
 }
 
 .tableDeux{
     width: 50%;
-    border: 2px solid black;
+    border: 2px solid #f25a31;
     margin: 10px 10px;
     padding: 1%;
+    border-radius: 5px;
+}
+
+#titreCss{
+    color: #0f7ec3;
+    
 }
 
 .tableTrois{
     width: 50%;
-    border: 2px solid red;
+    border: 2px solid #0f7ec3;
     margin: 10px 10px;
     padding: 1%;
+    border-radius: 5px;
+}
+
+#titreJs{
+    color: #f68333;
 }
 
 .tableQuatre{
     width: 50%;
-    border: 2px solid red;
+    border: 2px solid #f68333;
     margin: 10px 10px;
     padding: 1%;
+    border-radius: 5px;
 }
