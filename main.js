@@ -1,7 +1,7 @@
 
 window.onload = () => {
 
-    let learners = ["ARMAND Djedou Arnaud", "BINON Frederic", "BROODCOORENS Maxime", "MANSORI Magid Jbari", "MONDT Alexandre", "PICARD Pierre-Louis", "RENDA Elisa", "RIPET Julien", "AFKIR Younes", "BAQUET Mathilde", "BIALAIS Emilie", "BOTTA Maxime", "CCOYLLO Jussi", "GAINA Corneliu", "GOLDESTEIN Andres", "MASSART Francois", "MEURANT Matthieu", "MOL Estelle", "RODRIGUEZ Amalia"];
+    let learners = ["ARMAND Djedou Arnaud", "BINON Frederic", "BROODCOORENS Maxime", "JBARI MANSORI Magid", "MONDT Alexandre", "PICARD Pierre-Louis", "RENDA Elisa", "RIPET Julien", "AFKIR Younes", "BAQUET Mathilde", "BIALAIS Emilie", "BOTTA Maxime", "CCOYLLO Jussi", "GAINA Corneliu", "GOLDESTEIN Andres", "MASSART Francois", "MEURANT Matthieu", "MOL Estelle", "RODRIGUEZ Amalia"];
 
     let tableauPlaces = {
         places: [

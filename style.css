@@ -26,6 +26,7 @@ main{
     margin: auto auto;
     flex-direction: column;
     background-color: black;
+    min-width: 320px;
 }
 
 h1{
@@ -44,7 +45,7 @@ h2{
   right: 8%;
   height: auto;
   width:35%;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #buttonRdm {
@@ -126,4 +127,7 @@ img{
     margin: 10px 10px;
     padding: 1%;
     border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px){
 }
