@@ -1,5 +1,8 @@
 *{
     transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: aliceblue;
 }
 
 main{
@@ -14,11 +17,16 @@ main{
     flex-direction: column;
 }
 
+h2{
+    margin: 2% 0%;
+}
+
 #buttonRdm {
     height: 50px;
     width: 50px;
     background-color: blue;
     border: 2px solid yellow;
+    margin: 10px 10px; 
 }
 
 .firstTables{
@@ -27,7 +35,6 @@ main{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    border: 2px solid black;
 }
 
 .secondTables{
@@ -36,25 +43,32 @@ main{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    border: 2px solid red;
 }
 
 .tableUne{
     width: 50%;
     border: 2px solid black;
+    margin: 10px 10px;
+    padding: 1%;
 }
 
 .tableDeux{
     width: 50%;
     border: 2px solid black;
+    margin: 10px 10px;
+    padding: 1%;
 }
 
 .tableTrois{
     width: 50%;
     border: 2px solid red;
+    margin: 10px 10px;
+    padding: 1%;
 }
 
 .tableQuatre{
     width: 50%;
     border: 2px solid red;
+    margin: 10px 10px;
+    padding: 1%;
 }
