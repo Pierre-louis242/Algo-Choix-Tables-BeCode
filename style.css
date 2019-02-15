@@ -58,6 +58,12 @@ h2{
     padding: 0.2%;
 }
 
+#buttonRdm:hover {
+    cursor: pointer;
+    height: 110px;
+    width: 100px;
+}
+
 img{
     height: 100%;
     width: 100%;
