@@ -1,8 +1,8 @@
 
 window.onload = () => {
 
-    let learners = ["ARMAND Djedou Arnaud", "BINON Frédéric", "BROODCOORENS Maxime", "MANSORI Magid Jbari", "MONDT Alexandre", "PICARD Pierre-Louis", "RENDA Elisa", "RIPET Julien", "AFKIR Younes", "BAQUET Mathilde", "BIALAIS Emilie", "BOTTA Maxime", "CCOYLLO Jussi", "GAINA Corneliu", "GOLDESTEIN Andrés", "MASSART François", "MEURANT Matthieu", "MOL Estelle", "RODRIGUEZ Amalia"];
-    
+    let learners = ["ARMAND Djedou Arnaud", "BINON Frederic", "BROODCOORENS Maxime", "MANSORI Magid Jbari", "MONDT Alexandre", "PICARD Pierre-Louis", "RENDA Elisa", "RIPET Julien", "AFKIR Younes", "BAQUET Mathilde", "BIALAIS Emilie", "BOTTA Maxime", "CCOYLLO Jussi", "GAINA Corneliu", "GOLDESTEIN Andres", "MASSART Francois", "MEURANT Matthieu", "MOL Estelle", "RODRIGUEZ Amalia"];
+
     let tableauPlaces = {
         places: [
             document.getElementById("php"),
@@ -19,7 +19,7 @@ window.onload = () => {
     let js = table[3];
     let buttonRdm = document.getElementById("buttonRdm");
     let noMore=true;
-    
+
     function randomize(){
         for (i=0; i<3; i++){
             for (j=0; j<5; j++){
@@ -31,14 +31,14 @@ window.onload = () => {
         putNames();
         noMore=false;
     }
-    
+
     buttonRdm.addEventListener("click", function(e){
         e.preventDefault();
         if (noMore==true){
             randomize();
         };
     });
-    
+
     function putNames(){
         for (m=0; m<3; m++){
             for (y=0; y<5; y++){
