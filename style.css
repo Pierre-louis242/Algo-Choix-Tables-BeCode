@@ -45,7 +45,7 @@ h2{
   right: 8%;
   height: auto;
   width:35%;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 #buttonRdm {
@@ -129,5 +129,25 @@ img{
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 850px){
+  #message{
+      font-size: 1.1rem;
+      right: 5%;
+  }
+}
+
+@media only screen and (max-width: 560px){
+  #message{
+      font-size: 1.1rem;
+      right: 2%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #message{
+      font-size: 1rem;
+      top:18%;
+      right: 2%;
+      width:30%;
+  }
 }

@@ -62,5 +62,5 @@ function message (text, selector) {
     setTimeout ( ()=> {
         document.querySelector(selector).innerText = "";
         document.querySelector(selector).style.display = "none";
-    }, 3000)
+    }, 4000)
 }
