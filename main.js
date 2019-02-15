@@ -36,8 +36,7 @@ window.onload = () => {
             setTimeout(()=>{
                 message("> Votre table est bien reservee, demain 9h. Merci a vous.", "#message");
             },6000)
-        }
-        else{
+        }        else{
           message("> ERROR: Desole, nous sommes complet.", "#message");
         }
     });
@@ -50,7 +49,7 @@ window.onload = () => {
             }else if (m==3){
                 console.log(table[m]);
                 nomsDansTable(m, p, 4);
-            }    
+            }
         };
     };
 
@@ -63,7 +62,7 @@ window.onload = () => {
             }
         },1000)
     }
-    
+
     function message (text, selector) {
         document.querySelector(selector).innerText = text;
         document.querySelector(selector).style.display = "block";
