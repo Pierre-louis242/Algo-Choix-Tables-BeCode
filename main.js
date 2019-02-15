@@ -33,10 +33,11 @@ window.onload = () => {
         e.preventDefault();
         if (noMore==true){
             randomize();
-            message(">Votre table est bien reservee, demain 9h. Merci a vous.", "#message");
-        }
-        else{
-          message(">Desole, nous sommes complet.", "#message");
+            setTimeout(()=>{
+                message("> Votre table est bien reservee, demain 9h. Merci a vous.", "#message");
+            },6000)
+        }        else{
+          message("> ERROR: Desole, nous sommes complet.", "#message");
         }
     });
 
@@ -68,7 +69,7 @@ window.onload = () => {
         setTimeout ( ()=> {
             document.querySelector(selector).innerText = "";
             document.querySelector(selector).style.display = "none";
-        }, 4000)
+        }, 2500)
     }
 
 };
