@@ -46,11 +46,11 @@ window.onload = () => {
     function putNames(){
         for (m=0; m<3; m++){
             for (y=0; y<5; y++){
-                tableauPlaces.places[m].innerText += table[m][y] + "\n";
+                tableauPlaces.places[m].innerText += "> " + table[m][y] + "\n";
             };
         };
         for (y=0; y<4; y++){
-            tableauPlaces.places[3].innerText += learners[y] + "\n";
+            tableauPlaces.places[3].innerText += "> " + learners[y] + "\n";
         };
     };
 
