@@ -98,6 +98,10 @@ img{
     border-radius: 5px;
 }
 
+.tableUne:hover{
+    box-shadow: 5px 5px #00ff00;
+}
+
 #titreHtml{
     color: #f25a31
 }
@@ -108,6 +112,10 @@ img{
     margin: 10px 10px;
     padding: 1%;
     border-radius: 5px;
+}
+
+.tableDeux:hover{
+    box-shadow: 5px 5px #00ff00;
 }
 
 #titreCss{
@@ -123,6 +131,10 @@ img{
     border-radius: 5px;
 }
 
+.tableTrois:hover{
+    box-shadow: 5px 5px #00ff00;
+}
+
 #titreJs{
     color: #f68333;
 }
@@ -133,6 +145,10 @@ img{
     margin: 10px 10px;
     padding: 1%;
     border-radius: 5px;
+}
+
+.tableQuatre:hover{
+    box-shadow: 5px 5px #00ff00;
 }
 
 @media only screen and (max-width: 850px){
