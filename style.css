@@ -41,10 +41,10 @@ h2{
 #message{
   position: absolute;
   top: 15%;
-  right: 5%;
+  right: 8%;
   height: auto;
-  width:350px;
-  font-size: 2rem;
+  width:35%;
+  font-size: 2.5rem;
 }
 
 #buttonRdm {
