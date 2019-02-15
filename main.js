@@ -1,7 +1,7 @@
 
 window.onload = () => {
 
-    let learners = ["ARMAND Djedou Arnaud", "BINON Frederic", "BROODCOORENS Maxime", "JBARI MANSORI Magid", "MONDT Alexandre", "PICARD Pierre-Louis", "RENDA Elisa", "RIPET Julien", "AFKIR Younes", "BAQUET Mathilde", "BIALAIS Emilie", "BOTTA Maxime", "CCOYLLO Jussi", "GAINA Corneliu", "GOLDESTEIN Andres", "MASSART Francois", "MEURANT Matthieu", "MOL Estelle", "RODRIGUEZ Amalia"];
+    let learners = ["AMAN Djedou Arnaud", "BINON Frederic", "BROODCOORENS Maxime", "JBARI MANSORI Magid", "MONDT Alexandre", "PICARD Pierre-Louis", "RENDA Elisa", "RIPET Julien", "AFKIR Younes", "BAQUET Mathilde", "BIALAIS Emilie", "BOTTA Maxime", "CCOYLLO Jussi", "GAINA Corneliu", "GOLDESTEIN Andres", "MASSART Francois", "MEURANT Matthieu", "MOL Estelle", "RODRIGUEZ Amalia"];
 
     let tableauPlaces = {
         places: [
@@ -33,11 +33,10 @@ window.onload = () => {
         e.preventDefault();
         if (noMore==true){
             randomize();
-            setTimeout(()=>{
-                message("> Votre table est bien reservee, demain 9h. Merci a vous.", "#message");
-            },6000)
-        }        else{
-          message("> ERROR: Desole, nous sommes complet.", "#message");
+            message("> Votre table est bien reservee, demain 9h. Merci a vous.", "#message");
+        }
+        else{
+          message("> Desole, nous sommes complet.", "#message");
         }
     });
 
@@ -69,7 +68,7 @@ window.onload = () => {
         setTimeout ( ()=> {
             document.querySelector(selector).innerText = "";
             document.querySelector(selector).style.display = "none";
-        }, 2500)
+        }, 4000)
     }
 
 };
